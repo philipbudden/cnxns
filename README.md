@@ -9,6 +9,9 @@ cnxns abstracts the complexity of working with a variety of data systems.
 - Microsoft SQL Server
 - MySQL/MariaDB
 
+### Dataverse
+- Dynamics 365
+
 ## Getting started
 
 ```shell

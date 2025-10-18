@@ -1,0 +1,10 @@
+-r requirements.txt
+mypy
+pandas-stubs
+pre-commit
+setuptools
+sphinx
+sphinx-autodoc-typehints
+sphinx_rtd_theme
+types-python-dateutil
+types-requests

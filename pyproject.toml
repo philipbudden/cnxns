@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cnxns"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="n3ddu8", email="n3ddu8@proton.me" },
 ]

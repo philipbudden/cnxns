@@ -28,6 +28,13 @@ jobs:
 
       - name: Build release distributions
         run: |
+          # Clean out any old artifacts first
+          rm -rf dist/*
+          python -m pip install build
+          python -m build
+
+      - name: Build release distributions
+        run: |
           # NOTE: put your own distribution build steps here.
           python -m pip install build
           python -m build

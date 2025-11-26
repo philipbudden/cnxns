@@ -26,5 +26,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/n3ddu8/cnxns"
-Issues = "https://github.com/n3ddu8/cnxns/issues"
+Homepage = "https://github.com/philipbudden/cnxns"
+Issues = "https://github.com/philipbudden/cnxns/issues"

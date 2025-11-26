@@ -8,12 +8,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-<br />
-<div align="center">
-  <a href="https://github.com/philipbudden/cnxns">
-    <img src=".logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Cnxns</h3>
 
   <p align="center">
@@ -24,41 +18,6 @@
     <a href="https://github.com/philipbudden/cnxns/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About the Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-      <ul>
-        <a href="#dbms">dbms</a>
-        <ul>
-          <li><a href="#supports">Supports</a></li>
-          <li><a href="#pre-requisites">Pre-requisites</a></li>
-          <li><a href="#example">Example</a></li>
-        </ul>
-      </ul>
-      <ul>
-        <a href="#m365">m365</a>
-        <ul>
-          <li><a href="#supports">Supports</a></li>
-          <li><a href="#pre-requisites">Pre-requisites</a></li>
-          <li><a href="#example">Example</a></li>
-        </ul>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About the Project

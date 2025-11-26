@@ -11,11 +11,12 @@ def _generate_token(
     tenant_id: str,
 ) -> str:
     """
-    Returns a token for use with the Microsoft Dataverse OAuth 2.0 REST API.
+    Returns a token for use with Microsoft 365 APIs.
 
-    Generates a token for use with the Microsoft Dataverse OAuth 2.0 REST API.
-    If a cached token exists, returns this instead. Requires an application to
-    be registered within Azure Active Directory.
+    Generates a token for use with Microsoft 365 APIs, such as the Dataverse
+    OAuth 2.0 REST API or the 365 Graph API. If a cached token exists, returns
+    this instead. Requires an application to be registered within Azure Active
+    Directory.
 
     Args:
         base_url (String): Base URL for Dataverse instance.
@@ -58,12 +59,13 @@ def query_api(
     chunksize: int,
 ) -> Generator:
     """
-    Returns a dictionary of data from a Microsoft Dataverse database.
+    Yields a Generator containing JSON data from a Microsoft 365 endpoint.
 
-    Calls the Microsoft Dataverse OAuth 2.0 REST API and appends the results
-    to a list. If response is >5k rows, a new URL is returned and the process
-    is repeated. If any of the API calls fails, the loop is broken and the list
-    is returned wtih any results returned so far.
+    Generates an access token, constructs appropriate request headers, and
+    iteratively fetches data from a specified endpoint over a Microsoft 365
+    API, such as the Dataverse REST API or the 365 Graph API. It transparently
+    handles pagination by following the @odata.nextLink property until all
+    results are retrieved.
 
     Args:
         client_id (String): Azure active directory application guid.
